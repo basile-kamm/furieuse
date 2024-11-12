@@ -2,6 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
+  font-family: "Migra", serif;
 }
 
 a {
@@ -11,4 +13,8 @@ a {
 img,
 video {
   display: block;
+}
+
+h1 {
+  font-family: "carol-gothic", sans-serif;
 }
