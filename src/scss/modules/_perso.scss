@@ -1,0 +1,23 @@
+.perso {
+  position: relative;
+  background: linear-gradient(#000000, #1c011f);
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: $yellow;
+  padding-top: 65px;
+
+  h2 {
+    font-size: 80px;
+  }
+}
+
+.perso-transition {
+  background: linear-gradient(#00000000, #000000ff);
+  width: 100vw;
+  position: absolute;
+  top: -100px;
+  right: 0;
+  height: 100px;
+}
