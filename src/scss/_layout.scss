@@ -2,4 +2,9 @@ header {
   display: flex;
   padding: 30px 28vw;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
 }
