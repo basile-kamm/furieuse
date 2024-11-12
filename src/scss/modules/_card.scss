@@ -10,7 +10,7 @@
   display: flex;
   justify-content: space-between;
   width: 85vw;
-  padding-top: 40px;
+  padding: 40px 0 20px;
 }
 
 .card img {
@@ -22,7 +22,7 @@
 }
 
 .card-front {
-  transform: translateZ(15px);
+  transform: translateZ(10px);
 }
 
 .card .card-outer {

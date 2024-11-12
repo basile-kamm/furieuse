@@ -1,0 +1,43 @@
+.shop {
+  width: 100vw;
+  background: linear-gradient(#ba3e4f, #541c24);
+  position: relative;
+  padding: 50px 0 30px;
+}
+
+.shop-transition {
+  background: linear-gradient(#ba3e4f00, #ba3e4fff);
+  width: 100vw;
+  position: absolute;
+  top: -100px;
+  right: 0;
+  height: 100px;
+}
+
+.shop-title {
+  width: 100vw;
+  font-size: 160px;
+  text-align: center;
+  opacity: 0.8;
+  margin-bottom: 130px;
+}
+
+.logo svg {
+  fill: $yellow;
+}
+
+.shop-book {
+  position: absolute;
+  width: 520px;
+  top: 555px;
+  left: 80px;
+}
+
+.shop-text {
+  font-size: 30px;
+  margin-bottom: 65px;
+}
+
+.shop .button {
+  margin-bottom: 140px;
+}
