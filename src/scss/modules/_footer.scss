@@ -6,6 +6,11 @@ footer {
 
 .footer-logo-dargaud {
   width: 460px;
+  transition: scale 0.3s;
+
+  &:hover {
+    scale: 1.05;
+  }
 }
 
 .footer-socials-container {
@@ -17,4 +22,22 @@ footer {
   text-decoration: none;
   font-size: 24px;
   font-weight: 700;
+  overflow: hidden;
+  position: relative;
+
+  &::after {
+    content: "";
+    background: $yellow;
+    height: 2.5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateX(-100%);
+    transition: transform 0.5s;
+  }
+
+  &:hover::after {
+    transform: translateX(0);
+  }
 }

@@ -3,15 +3,17 @@
   background: linear-gradient(#ba3e4f, #541c24);
   position: relative;
   padding: 50px 0 30px;
+  overflow-y: hidden !important;
 }
 
 .shop-transition {
   background: linear-gradient(#ba3e4f00, #ba3e4fff);
-  width: 100vw;
   position: absolute;
   top: -100px;
   right: 0;
   height: 100px;
+  left: 0;
+  z-index: 100000;
 }
 
 .shop-title {
