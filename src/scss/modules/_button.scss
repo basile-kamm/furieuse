@@ -1,0 +1,26 @@
+.button {
+  position: relative;
+  height: 75px;
+  width: 200px;
+  background: #2e1f0e;
+  color: $yellow;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  text-decoration: none;
+
+  img {
+    position: absolute;
+    width: 240px;
+    top: -10px;
+    left: -20px;
+    right: -20px;
+    bottom: -10px;
+  }
+
+  &.void {
+    background: none;
+  }
+}
