@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
       markers: true,
       start: "top top",
       end: "bottom top",
-      scrub: true,
+      scrub: 1,
     },
   });
 
@@ -111,18 +111,5 @@ document.addEventListener("DOMContentLoaded", function () {
     "<"
   );
 
-  // Shop section anim
-  const shopElements = document.querySelectorAll(".container .row ");
-
-  shopElements.forEach((shopElement) => {
-    gsap.from(shopElement, {
-      scrollTrigger: {
-        trigger: shopElement,
-        start: "-400px 90%",
-        markers: true,
-      },
-      y: 400,
-      stagger: 0.3,
-    });
-  });
+  console.log(document.querySelector(".shop").offsetHeight);
 });

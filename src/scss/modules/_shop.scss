@@ -3,7 +3,8 @@
   background: linear-gradient(#ba3e4f, #541c24);
   position: relative;
   padding: 50px 0 30px;
-  overflow-y: hidden !important;
+  // content-visibility: auto;
+  // contain-intrinsic-size: auto 1700px;
 }
 
 .shop-transition {
