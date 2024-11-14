@@ -16,12 +16,26 @@
   left: 0;
 }
 
-.shop-title {
+.shop-split-container {
   width: 100vw;
-  font-size: 160px;
+  font-size: 170px;
   text-align: center;
   opacity: 0.8;
   margin-bottom: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  user-select: none;
+
+  .shop-split-text {
+    display: flex;
+    gap: 1px;
+
+    .spacer {
+      width: 30px;
+    }
+  }
 }
 
 .logo svg {
@@ -33,6 +47,7 @@
   width: 520px;
   top: 555px;
   left: 80px;
+  z-index: 3;
 }
 
 .shop-text {

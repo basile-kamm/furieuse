@@ -9,7 +9,7 @@
   align-items: center;
   font-size: 24px;
   text-decoration: none;
-  transition: scale 0.2s, box-shadow 0.2s;
+  transition: box-shadow 0.2s;
   box-shadow: #2e1f0e77 0 3px 20px;
 
   img {
@@ -19,6 +19,7 @@
     left: -20px;
     right: -20px;
     bottom: -10px;
+    transition: scale 0.2s;
   }
 
   &.void {
@@ -30,8 +31,11 @@
   }
 
   &:hover {
-    scale: 1.05;
     box-shadow: #2e1f0ea4 0 3px 20px;
+
+    img {
+      scale: 1.05;
+    }
 
     .button-label {
       scale: 1.05;

@@ -16,6 +16,7 @@
 .popup-name {
   font-size: 13vw;
   bottom: 65vh;
+  user-select: none;
 }
 
 .popup-text {
@@ -39,13 +40,14 @@
   .popup-frame {
     max-height: 30vh;
     margin-left: -10px;
-    transform: translateX(-300%);
+    // transform: translateX(-300%);
   }
 }
 
 .popup .button {
   top: 20vh;
   cursor: pointer;
+  user-select: none;
 }
 
 .popup-background {

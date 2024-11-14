@@ -5,6 +5,8 @@
   height: 315px;
   scale: 0.9;
   cursor: pointer;
+  user-select: none;
+  z-index: 3;
 }
 
 .card-container {

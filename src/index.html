@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Furieuse</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="scss/main.scss" />
-    <link rel="stylesheet" href="https://use.typekit.net/nzl8ztw.css" />
-  </head>
+  <include src="html-module/head.html"></include>
   <body>
     <include src="html-module/header.html"></include>
     <main>
@@ -32,8 +26,13 @@
       </section>
       <section class="perso">
         <div class="perso-transition" id="anchor-perso"></div>
-        <h2>Découvrez les Personnages</h2>
-        <img src="img/ornament-1.png?as=webp&width=500" alt="" loading="lazy" />
+        <h2 class="perso-title">Découvrez les Personnages</h2>
+        <img
+          class="perso-ornament"
+          src="img/ornament-1.png?as=webp&width=500"
+          alt=""
+          loading="lazy"
+        />
         <div class="card-container">
           <include src="html-module/card-module.html">
             { "cardvalue": "ysa" }
@@ -98,10 +97,43 @@
       </section>
       <section class="shop">
         <div class="shop-transition" id="anchor-shop"></div>
-        <h2 class="shop-title">
-          Explorez le Royaume <br />
-          de Pendragon !
-        </h2>
+        <div class="shop-split-container">
+          <div class="shop-split-text">
+            <span>E</span>
+            <span>x</span>
+            <span>p</span>
+            <span>l</span>
+            <span>o</span>
+            <span>r</span>
+            <span>e</span>
+            <span>z</span>
+            <span class="spacer"></span>
+            <span>l</span>
+            <span>e</span>
+            <span class="spacer"></span>
+            <span>R</span>
+            <span>o</span>
+            <span>y</span>
+            <span>a</span>
+            <span>u</span>
+            <span>m</span>
+            <span>e</span>
+          </div>
+          <div class="shop-split-text">
+            <span>d</span>
+            <span>e</span>
+            <span class="spacer"></span>
+            <span>P</span>
+            <span>e</span>
+            <span>n</span>
+            <span>d</span>
+            <span>r</span>
+            <span>a</span>
+            <span>g</span>
+            <span>o</span>
+            <span>n</span>
+          </div>
+        </div>
         <img
           loading="lazy"
           src="img/livre-mockup.webp"

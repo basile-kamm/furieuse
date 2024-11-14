@@ -34,7 +34,7 @@
   #hero-ysa {
     width: 22vw;
     left: 20vw;
-    bottom: 100px;
+    bottom: 80px;
   }
 
   #hero-baron {
@@ -51,7 +51,7 @@
   #hero-roi {
     width: 20vw;
     left: 10vw;
-    bottom: 200px;
+    bottom: 160px;
   }
   #hero-logo {
     width: 80vw;
@@ -60,7 +60,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .hero {
     #hero-1 {
       bottom: -700px;
@@ -74,11 +74,11 @@
     }
 
     #hero-baron {
-      bottom: 200px;
+      bottom: 180px;
     }
 
     #hero-claude {
-      bottom: 300px;
+      bottom: 280px;
     }
 
     #hero-logo {
@@ -95,6 +95,33 @@
 
     #hero-baron {
       bottom: 100px;
+    }
+
+    #hero-2 {
+      bottom: -100px;
+    }
+
+    #hero-3 {
+      bottom: -150px;
+    }
+
+    #hero-claude {
+      bottom: 200px;
+    }
+
+    #hero-roi {
+      bottom: 150px;
+    }
+  }
+}
+@media (max-width: 1100px) {
+  .hero {
+    #hero-ysa {
+      bottom: 50px;
+    }
+
+    #hero-baron {
+      bottom: 150px;
     }
 
     #hero-2 {
