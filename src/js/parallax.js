@@ -3,7 +3,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 document.addEventListener("DOMContentLoaded", function () {
-  // Parallax effect
+  // Parallax effect (POC)
   const container = document.querySelector(".hero");
 
   const tl = gsap.timeline({

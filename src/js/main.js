@@ -7,7 +7,7 @@ import "./parallax";
 import "./popup";
 
 document.addEventListener("DOMContentLoaded", function () {
-  // Header Animation
+  // Header Animation (POC)
   const header = document.querySelector("header");
 
   let lastScrollPosition = 0;
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
     stagger: 0.1,
   });
 
-  // Enter text anim
+  // Enter text anim (POC)
   const caracters = document.querySelectorAll(".shop-split-text span");
   const caractersContainer = document.querySelector(".shop-split-container");
 
